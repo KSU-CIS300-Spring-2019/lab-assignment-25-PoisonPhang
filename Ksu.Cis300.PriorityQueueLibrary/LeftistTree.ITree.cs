@@ -17,7 +17,7 @@ namespace Ksu.Cis300.PriorityQueueLibrary
     /// An immutable binary tree node that can draw itself.
     /// </summary>
     /// <typeparam name="T">The type of the elements in the tree.</typeparam>
-    public partial class BinaryTreeNode<T> : ITree
+    public partial class LeftistTree<T> : ITree
     {
         /// <summary>
         /// Gets the children of this node.
